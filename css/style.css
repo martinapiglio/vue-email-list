@@ -1,0 +1,18 @@
+/* common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* /common */
+
+#app h1 {
+    padding: 1rem;
+    font-size: larger;
+}
+
+#app ul,
+#app div {
+    padding-left: 2rem;
+}
