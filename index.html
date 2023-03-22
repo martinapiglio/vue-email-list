@@ -11,7 +11,13 @@
 <body>
 
     <div id="app">
-        {{message}}
+
+        <ul>
+            <li v-for="randomEmail in randomEmailsArray">
+                {{randomEmail}}
+            </li>
+        </ul>
+
     </div>
 
     <!-- vue -->
