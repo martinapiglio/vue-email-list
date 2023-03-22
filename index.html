@@ -12,11 +12,15 @@
 
     <div id="app">
 
-        <ul>
+        <ul v-if="randomEmailsArray.length == 10">
             <li v-for="randomEmail in randomEmailsArray">
                 {{randomEmail}}
             </li>
         </ul>
+
+        <div v-else>
+            Loading emails list...
+        </div>
 
     </div>
 
